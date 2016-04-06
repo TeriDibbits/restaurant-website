@@ -12,6 +12,33 @@ html {
   text-size-adjust: 100%;
 }
 
+body {
+	margin: 0;
+}
+
+header {
+	margin: 1em;
+}
+
+.toggle {
+	display: inline-block;
+	max-width: 10%;
+}
+
+h1 {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin-top: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
 *, *::before, *::after {
 	box-sizing: inherit;
 }
