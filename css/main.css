@@ -222,7 +222,7 @@ footer {
 
 .hours-body {
   display: inline-block;
-  margin-left: 1em;
+  margin: .5em;
 }
 
 h4 {
