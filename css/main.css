@@ -95,6 +95,7 @@ h2 {
 }
 
 .menu-link-card {
+  overflow: hidden;
   position: relative;
   background-color: #e2e2e2;
   margin: .2em;
@@ -125,6 +126,7 @@ a {
 
 .menu-cards {
   border-top: 1px solid #000;
+  padding-top: 1em;
 }
 
 .menu-card {
@@ -183,10 +185,13 @@ p {
 
 .special-cards {
   border-top: 1px solid #000;
+  clear: both;
+  padding-top: 1em;
 }
 
 .service-cards {
   border-top: 1px solid #000;
+  padding-top: 1em;
 }
 
 .service-img {
@@ -282,8 +287,37 @@ h4 {
     line-height: 1.4;
   }
 
+  h1 {
+    margin-left: 0;
+  }
+
   .toggle {
-    margin-bottom: .5em;
+    display: none;
+  }
+
+  ul {
+    display: block;
+    list-style-type: none;
+    float: right;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  h2 {
+    display: inline-block;
+    color: #000;
+    margin: 0;
+    text-align: center;
+  }
+
+  .nav {
+    background-color: #000;
+    display: inline-block;
+    margin-right: .1em;
+    border-radius: .5em;
+    padding: .5em;
   }
 
   h1 {
@@ -296,13 +330,17 @@ h4 {
   }
 
   h2 {
-    margin-bottom: .5em;
+    float: none;
+    margin-bottom: 0;
+    padding: 1em;
+    margin-top: -2em;
   }
 
   .link-card-img {
     max-width: 15%;
     margin-left: 12em;
     margin-top: -.85em;
+    padding-bottom: .5em;
   }
 
   .menu-img {
@@ -322,6 +360,38 @@ h4 {
     float: right;
     margin-right: 13em;
   }
+
+  .menu-link-card {
+    position: relative;
+    margin-right: 0;
+    display: inline-block;
+    padding: 2em;
+    padding-right: 5em;
+    max-width: 10em;
+    height: 8em;
+  }
+
+  .link-card-img {
+    position: absolute;
+    display: inline-block;
+    max-width: 30%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .link-cards {
+    text-align: center;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
+
+  .special-link-card {
+    margin-left: -.6em;
+  }
+
+  .service-link-card {
+    margin-left: -.8em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -331,30 +401,20 @@ h4 {
     line-height: 1.5;
   }
 
-  .toggle {
-    display: none;
-  }
-
-  ul {
-    display: block;
-    list-style-type: none;
-    float: right;
-  }
-
-  a {
-    color: #fff;
-  }
-
-  h2 {
-    color: #000;
-  }
-
-  .nav {
-    background-color: #000;
+  .menu-link-card {
+    margin-right: 0;
     display: inline-block;
-    margin-right: .75em;
-    border-radius: .5em;
-    padding: .5em;
+    text-align: center;
+    padding: 3em;
+    padding-right: 5em;
+    max-width: 20em;
+  }
+
+  .link-card-img {
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
