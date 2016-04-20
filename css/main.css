@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font: normal 100%/1.3 sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
 }
 
 header {
+  overflow: hidden;
   margin: 1em;
   margin-bottom: 0;
   margin-top: 2em;
@@ -254,6 +256,10 @@ h4 {
     margin-top: 1em;
   }
 
+  .toggle {
+    max-width: 8%;
+  }
+
   h1 {
     margin-top: .3em;
   }
@@ -313,11 +319,24 @@ h4 {
   }
 
   .nav {
-    background-color: #000;
     display: inline-block;
     margin-right: .1em;
+    padding: 0;
+  }
+
+  .nav a {
+    background-color: #000;
+    display: inline-block;
     border-radius: .5em;
     padding: .5em;
+  }
+
+  .nav a:hover {
+    background-color: #e2e2e2;
+  }
+
+  a:hover {
+    color: #000;
   }
 
   h1 {
