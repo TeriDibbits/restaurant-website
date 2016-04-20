@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-	font: normal 100%/1.3 sans-serif;
+  font: normal 100%/1.3 sans-serif;
 }
 
 body {
@@ -51,7 +51,7 @@ ul {
 }
 
 .banner-img {
-	position: relative;
+  position: relative;
 }
 
 figcaption {
@@ -188,6 +188,7 @@ p {
 .service-cards {
   border-top: 1px solid #000;
 }
+
 .service-img {
   max-width: 20%;
   display: inline-block;
@@ -240,6 +241,34 @@ h4 {
   display: inline-block;
   max-width: 25%;
   margin: .1em;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 }
 
 *, *::before, *::after {
