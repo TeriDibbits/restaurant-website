@@ -58,7 +58,7 @@ ul {
 
 figcaption {
   position: absolute;
-  top: 13em;
+  top: 7em;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -281,6 +281,10 @@ h4 {
     padding: 1em;
   }
 
+  figcaption {
+    top: 10em;
+  }
+
   h2 {
     margin-top: .75em;
   }
@@ -345,7 +349,7 @@ h4 {
   }
 
   figcaption {
-    margin-top: 10em;
+    top: 18em;
   }
 
   h2 {
@@ -411,6 +415,10 @@ h4 {
   .service-link-card {
     margin-left: -.8em;
   }
+
+  .special-img {
+    margin-left: 2em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -421,7 +429,7 @@ h4 {
   }
 
   figcaption {
-    margin-top: 20em;
+    top: 27em;
   }
 
   .menu-link-card {
@@ -471,6 +479,10 @@ h4 {
 
   .service-card-body {
     margin-right: 30em;
+  }
+
+  figcaption {
+    top: 35em;
   }
 }
 
