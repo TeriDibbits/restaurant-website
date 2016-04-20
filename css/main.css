@@ -454,7 +454,23 @@ h4 {
   }
 
   .card-body {
-    margin-right: 40em;
+    margin-right: 49em;
+  }
+
+  .card-img {
+    max-width: 10%;
+  }
+
+  .special-img {
+    max-width: 14%;
+  }
+
+  .service-img{
+    max-width: 14%;
+  }
+
+  .service-card-body {
+    margin-right: 30em;
   }
 }
 
