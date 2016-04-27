@@ -140,16 +140,16 @@ a {
   margin-left: 2em;
 }
 
+.card-body {
+  display: inline-block;
+  max-width: 10em;
+}
+
 .card-img {
   max-width: 20%;
   display: inline-block;
   margin-left: 1em;
   margin-right: .1em;
-}
-
-.card-body {
-  display: inline-block;
-  max-width: 10em;
 }
 
 ul {
@@ -371,11 +371,6 @@ h4 {
 
   .menu-img {
     margin-left: 13.5em;
-  }
-
-  .card-body {
-    float: right;
-    margin-right: 14em;
   }
 
   .special-card-body {
