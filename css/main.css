@@ -41,6 +41,7 @@ h1 {
 }
 
 figure {
+  position: relative;
   margin: 0;
 }
 
@@ -57,10 +58,12 @@ ul {
 }
 
 figcaption {
+  width: 100%;
   position: absolute;
-  top: 7em;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
